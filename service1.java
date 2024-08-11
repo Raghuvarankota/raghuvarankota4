@@ -7,6 +7,7 @@ public class ExceptionHandlingExample {
             System.out.println("Exception caught: " + e.getMessage());
         } finally {
             System.out.println("This block always executes.");
+            System.out.println("This block always services.");
         }
     }
 }
